@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c351b55.css",
+    "main.js": "/static/js/main.c633a37b.js",
+    "static/media/SunIceGrotesk.otf": "/static/media/SunIceGrotesk.ab277f3d1096b20e8a6a.otf",
+    "static/media/Alliance No.2 Bold.otf": "/static/media/Alliance No.2 Bold.c6dc4bb91c75cbf27d93.otf",
+    "static/media/Alliance No.2 SemiBold.otf": "/static/media/Alliance No.2 SemiBold.002256b28d833f436c02.otf",
+    "static/media/Alliance No.2 Regular.otf": "/static/media/Alliance No.2 Regular.dbad94281a1ca689391e.otf",
+    "index.html": "/index.html",
+    "main.8c351b55.css.map": "/static/css/main.8c351b55.css.map",
+    "main.c633a37b.js.map": "/static/js/main.c633a37b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c351b55.css",
+    "static/js/main.c633a37b.js"
+  ]
+}

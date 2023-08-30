@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "SunIceGrotesk";
+    src: url("./fonts/SunIceGrotesk.otf");
+}
+
+@font-face {
+    font-family: "AllianceRegular";
+    src: url("./fonts/Alliance\ No.2\ Regular.otf");
+}
+
+@font-face {
+    font-family: "AllianceBold";
+    src: url("./fonts/Alliance\ No.2\ Bold.otf");
+}
+
+@font-face {
+    font-family: "AllianceSemiBold";
+    src: url("./fonts/Alliance\ No.2\ SemiBold.otf");
+}
+
+* {
+    font-size: 1rem;
+    font-family: AllianceRegular;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: SunIceGrotesk;
+    letter-spacing: 0.1rem
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: SunIceGrotesk;
+    line-height: 2.625;
+    letter-spacing: 10%;
+}
+
+h3 {
+    font-family: SunIceGrotesk;
+    font-size: 1.563rem;
+    line-height: 2rem;
+    letter-spacing: 15%;
+}
+
+.button-text {
+    font-family: SunIceGrotesk;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.mini-header-text {
+    font-family: AllianceSemiBold;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.body-text {
+    font-size: 0.875rem;
+    line-height: 1.66rem;
+}
+
+.small-text {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    opacity: 0.6;
+}
+
+.bold {
+    font-family: AllianceBold;
+}
+
+.semi-bold {
+    font-family: AllianceSemiBold;
+}
+
+.wrap {
+    word-spacing: 100vw;
+}
+
+.fade-text {
+    opacity: 0.7;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.red-text {
+    color: #EC605F
+}
+
+.border-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+@media (max-width: 1024px) and (min-width: 481px) {
+    h1 {
+        font-size: 2.313rem;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 321px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.563rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}

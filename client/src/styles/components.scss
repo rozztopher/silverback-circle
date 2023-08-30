@@ -1,0 +1,336 @@
+.nav-search {
+    background: rgba(143, 135, 202, 0.19);
+    border-radius: 50px;
+    height: 50px;
+    outline: none;
+    width: 12vw;
+    border: none;
+    padding-left: 3vw;
+}
+
+.bg-ellipse {
+    position: absolute;
+    opacity: 0.49;
+    filter: blur(400px);
+}
+
+.bg-grid {
+    position: absolute;
+    opacity: 0.57;
+}
+
+.vertical-divider {
+    background: #252243;
+    height: 100%;
+    width: 2px;
+}
+
+.horizontal-divider {
+    background: #FFFFFF;
+    height: 2px;
+    width: 100%;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.enter-input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(143, 135, 202, 0.19);
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: transparent;
+    padding-left: 1vw;
+}
+
+.enter-input-text {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(143, 135, 202, 0.19);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    padding-left: 1vw;
+}
+
+.divider-text {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.divider-text .horizontal-divider {
+    background: rgba(143, 135, 202, 0.15);
+}
+
+.custom-checkbox {
+	-webkit-appearance: none;
+    background-color: rgba(143, 135, 202, 0.04);
+    border: 1px solid rgba(143, 135, 202, 0.15);
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+}
+
+.custom-checkbox:checked:after {
+	content: '\2714';
+	font-size: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	color: #99a1a7;
+}
+
+.social-container {
+    position: fixed;
+    bottom: 5.5%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.close {
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+    cursor: pointer;
+}
+
+.carousel-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1vw;
+    width: 20%;
+}
+
+.carousel-chip {
+    width: 100%;
+    height: 3px;
+    background: rgba(143, 135, 202, 0.5);
+    cursor: pointer;
+}
+
+.carousel-chip-active {
+    width: 100%;
+    height: 3px;
+    background: #fff
+}
+
+
+.fab {
+    position: relative;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.fab:hover {
+    background: linear-gradient(90deg, #BA04FC 0%, #6700EB 100%) !important;
+    box-shadow: 0px 0px 30px rgba(144, 2, 243, 0.5);
+    border: initial;
+}
+
+.fab img {
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.space-between-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outline-light {
+    border: 1px solid rgba(119, 126, 144, 0.15);
+}
+
+.select-field {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(143, 135, 202, 0.2);
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 75%;
+    height: 46px;
+    right: 0%;
+}
+
+.select-field img {
+    width: 7.5%;
+}
+
+.select-field-open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: rgba(49, 34, 97, 0.8);
+    box-shadow: 0px 4px 104px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);    
+    border-radius: 25px;
+    width: 75%;
+    top: 0%;
+    right: 0%;
+    z-index: 10;
+}
+
+.select-field-open-active {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-field-option {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border: 5px solid #EC605F;
+    box-sizing: border-box;
+    cursor: pointer;
+    pointer-events: all;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.border-button:hover {
+    background: #FFFFFF !important;
+}
+
+.border-button p {
+    color: #EC605F;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.absolute-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-left: -19%;
+    width: 100vw;
+}
+
+.outline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 1.875rem;
+    width: 1.875rem;
+    border: 1px solid #FFFFFF;
+}
+
+.circle {
+    position: relative;
+    border-radius: 100%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background: #FFFFFF;
+}
+
+.roadmap-divider {
+    height: 6.25rem;
+    width: 1px;
+    background: #FFFFFF;
+}
+
+.border {
+    border: 5px solid #EC605F;
+}
+
+.border-item {
+    border: 5px solid #EC605F;
+    padding: 6rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 15rem;
+    cursor: pointer;
+}
+
+.border-item:hover {
+    background: #FFFFFF !important;
+}
+
+.modal {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32%;
+    background: #1C1C1C;
+    z-index: 3;
+    padding: 3.5rem 4.5rem;
+    pointer-events: all;
+}
+
+.overlay-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 150%;
+    width: 100vw;
+    height: 100vh;
+    background: #1C1C1C;
+    padding: 2rem 2rem;
+    z-index: 3;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) and (min-width: 481px) {
+    .modal {
+        width: 85%;
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 321px) {
+    .modal {
+        width: 92%;
+        padding: 4rem 2rem;
+    }
+
+    .roadmap-divider {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .roadmap-divider {
+        height: 17.5rem;
+    }
+}
